@@ -1,0 +1,62 @@
+html {
+  font-size: 10px;
+  /*background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;*/
+  /*background: url(http://old.communityjournal.net//wp-content/uploads/2013/09/fresh-prince-of-bel-air-cast1.jpg) bottom center;*/
+  background: url(http://us.sulekhalive.com/images/photos/thumbnailfull/photos-2013-2-26-5-3-5.jpg) bottom center;
+  background-size: cover;
+}
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+	color: #00FF00;
+	font-size: 45px;
+	padding: 25px 10px 5px 10px;
+	font-family: Helvetica;
+	border-style: double;
+	border-width: 5px;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
